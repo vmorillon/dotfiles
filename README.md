@@ -1,2 +1,7 @@
 # dotfiles
-Dotfiles repo
+
+Software used:
+| Usage       | App     |
+|-------------|---------|
+| Shell       | Nushell |
+| Text editor | Helix   |

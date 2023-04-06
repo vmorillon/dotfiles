@@ -1,0 +1,34 @@
+theme = "night_owl"
+
+[editor]
+cursorcolumn = false
+cursorline = true
+line-number = "relative"
+mouse = true
+rulers = [80]
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = [
+  "diagnostics",
+  "selections",
+  "position",
+  "file-encoding",
+  "file-line-ending",
+  "file-type"
+]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.whitespace]
+render = "all"
+
+[editor.indent-guides]
+render = true
+character = "|"
+
+[editor.soft-wrap]
+enable = true

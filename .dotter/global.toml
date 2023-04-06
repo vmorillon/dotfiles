@@ -1,0 +1,18 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+LICENSE = ""
+"README.md" = ""
+
+[helix.files]
+helix = "~/.config/helix"
+"helix/config.toml" = "~/.config/helix/config.toml"
+"helix/languages.toml" = "~/.config/helix/languages.toml"
+
+[nushell.files]
+nushell = "~/.config/nushell"
+"nushell/config.nu" = "~/.config/nushell/config.nu"
+"nushell/env.nu" = "~/.config/nushell/env.nu"

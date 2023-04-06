@@ -1,0 +1,10 @@
+[[language]]
+name = "vsif"
+scope = "source.vsif"
+file-types = ["vsif"]
+roots = []
+indent = { tab-width = 2, unit = "  " }
+
+[[grammar]]
+name = "vsif"
+source = { git = "https://github.com/vmorillon/tree-sitter-vsif", rev = "24755f67211c2607db880eb5bf01220aa9e8c734" }
